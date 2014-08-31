@@ -1,14 +1,28 @@
----
-layout: default
-title: Jekyll &bull; Simple, blog-aware, static sites
-overview: true
----
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content ="charset=UTF-8"/>
+<html>
+  <head>
+    <style>
+    
+.boxie {
+    background-image:url("hylogo.png");
+    display: block;
+    height: 185px;
+    transition: width 8s ease 0s, height 8s ease 0s, background-color 8s ease 0s, transform 8s ease 0s;
+    width: 185px;
+}
 
-<head>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+.boxie:hover {
+  background-color:#FFCCCC;
+  height:185px;
+  transform: rotate(720deg);
+  width:185px;
+}
 
+    </style>
+  </head>
 
+<body>
 <center>
 
 <div class="boxie"></div>
@@ -24,3 +38,6 @@ overview: true
 </h4>
 
 </center>
+</body>
+</html>
+

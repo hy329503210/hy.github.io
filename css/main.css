@@ -1,0 +1,15 @@
+.boxie {
+    background-image:url("hylogo.png");
+    display: block;
+    height: 600px;
+    transition: width 8s ease 0s, height 8s ease 0s, background-color 8s ease 0s, transform 8s ease 0s;
+    width: 600px;
+}
+
+.boxie:hover {
+  background-color:#FFCCCC;
+  height:600px;
+  transform: rotate(720deg);
+  width:600px;
+}
+
